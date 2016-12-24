@@ -20,3 +20,7 @@ http://www.local.com/business/details/san-diego-ca/heavenly-smiles-dentist-13899
 
 
 ![Скрипт](http://i.imgur.com/GnKtEIh.png "Скрипт координат карты")
+
+![Сайт](http://i.imgur.com/2YLnOm0.png "Сайт для парсинга")
+
+
