@@ -1,2 +1,2 @@
-# D-work
-Demo and test app.
+# practice
+Demo and experemental apps.
