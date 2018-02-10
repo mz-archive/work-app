@@ -1,0 +1,28 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <h1>Articles</h1>
+
+    <div style="width: 650px; margin-left: 50px;">
+        {% for article in articles %}
+            {% if article.published %}
+                <div>
+                    <h2>{{ article.title }}</h2>
+                    <p><b>Author:</b> <a href="mailto:{{ article.author[1] }}">{{ article.author[0] }}</a></p>
+                    <p><b>Tags:</b> {{ article.tags | raw}}</p>
+                    <em>{{ article.content | raw }}</em>
+                </div>
+            {% else %}
+                <div style="color: #888888;">
+                    <h2>{{ article.title }}</h2>
+                    <p>Author: <a href="mailto:{{ article.author[1] }}"></a>{{ article.author[0] }}</p>
+                    <p>Tags: {{ article.tags | raw}}</p>
+                    <em>{{ article.content | raw }}</em>
+                </div>
+            {% endif %}
+            <hr>
+        {% endfor %}
+    </div>
+
+    
+{% endblock %}
