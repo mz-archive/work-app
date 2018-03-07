@@ -1,2 +1,2 @@
-# practice
-Demo and experemental apps.
+# work-app
+Test task & experamental app.
